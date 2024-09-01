@@ -1,0 +1,358 @@
+Welcome to Simple Bank Application
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 1
+Enter your name: Mithilesh
+Enter initial deposit: 5000
+Set your 4-digit PIN: 1234
+Account created successfully! Account Number: 3ee3a7aa
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 1
+Enter your name: Reddy
+Enter initial deposit: 2000
+Set your 4-digit PIN: 4321
+Account created successfully! Account Number: d1c9ef4e
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 4
+Enter your account number: 3ee3a7aa  
+Enter recipient's account number: d1c9ef4e
+Enter amount to transfer: 2500
+Enter your PIN: 1234
+Transferred $2500.0 to d1c9ef4e successfully.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 6
+Enter your account number: d1c9ef4e
+Enter your PIN: 4321
+
+Transaction History:
+{'Type': 'Account Created', 'Amount': 2000.0, 'Date': '2024-09-01 12:09:09', 'Balance': 2000.0}
+{'Type': 'Transfer from 3ee3a7aa', 'Amount': 2500.0, 'Date': '2024-09-01 12:10:05', 'Balance': 4500.0}
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 5
+Enter your account number: 3ee3a7aa
+Enter your PIN: 1234
+
+Account Details:
+Account Number: 3ee3a7aa
+Name: Mithilesh
+Balance: 2500.0
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 3
+Enter your account number: 3ee3a7aa
+Enter amount to withdraw: 2000
+Enter your PIN: 1234
+Withdrew $2000.0 successfully.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 6
+Enter your account number: 3ee3a7aa
+Enter your PIN: 1234
+
+Transaction History:
+{'Type': 'Account Created', 'Amount': 5000.0, 'Date': '2024-09-01 12:09:01', 'Balance': 5000.0}
+{'Type': 'Transfer to d1c9ef4e', 'Amount': -2500.0, 'Date': '2024-09-01 12:10:05', 'Balance': 2500.0}
+{'Type': 'Withdrawal', 'Amount': -2000.0, 'Date': '2024-09-01 12:11:18', 'Balance': 500.0}
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 2
+Enter your account number: 3ee3a7aa
+Enter amount to deposit: 10000
+Deposited $10000.0 successfully.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 6
+Enter your account number: 3ee3a7a
+Account not found.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 6       
+Enter your account number: 3ee3a7aa 
+Enter your PIN: 1234
+
+Transaction History:
+{'Type': 'Account Created', 'Amount': 5000.0, 'Date': '2024-09-01 12:09:01', 'Balance': 5000.0}
+{'Type': 'Transfer to d1c9ef4e', 'Amount': -2500.0, 'Date': '2024-09-01 12:10:05', 'Balance': 2500.0}
+{'Type': 'Withdrawal', 'Amount': -2000.0, 'Date': '2024-09-01 12:11:18', 'Balance': 500.0}
+{'Type': 'Deposit', 'Amount': 10000.0, 'Date': '2024-09-01 12:11:55', 'Balance': 10500.0}
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 1
+Enter your name: Ram
+Enter initial deposit: 1000
+Set your 4-digit PIN: 1235
+Account created successfully! Account Number: f6e3b520
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 4
+Enter your account number: f6e3b520
+Enter recipient's account number: 3ee3a7aa
+Enter amount to transfer: 1100
+Enter your PIN: 1235
+Invalid transfer amount.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 4        
+Enter your account number: f6e3b520 
+Enter recipient's account number: 3ee3a7aa 
+Enter amount to transfer: 1000
+Enter your PIN: 1235     
+Transferred $1000.0 to 3ee3a7aa successfully.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 5        
+Enter your account number: f6e3b520 
+Enter your PIN: 1235
+
+Account Details:
+Account Number: f6e3b520
+Name: Ram
+Balance: 0.0
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 3
+Enter your account number: f6e3b520
+Enter amount to withdraw: 1000
+Enter your PIN: 1235
+Invalid withdrawal amount.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 5        
+Enter your account number: 3ee3a7aa 
+Enter your PIN: 1235
+Invalid PIN.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 5        
+Enter your account number: 3ee3a7aa 
+Enter your PIN: 123
+Invalid PIN.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 5        
+Enter your account number: 3ee3a7aa
+Enter your PIN: 1234     
+
+Account Details:
+Account Number: 3ee3a7aa
+Name: Mithilesh
+Balance: 11500.0
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 6
+Enter your account number: 3ee3a7aa
+Enter your PIN: 1234
+
+Transaction History:
+{'Type': 'Account Created', 'Amount': 5000.0, 'Date': '2024-09-01 12:09:01', 'Balance': 5000.0}
+{'Type': 'Transfer to d1c9ef4e', 'Amount': -2500.0, 'Date': '2024-09-01 12:10:05', 'Balance': 2500.0}
+{'Type': 'Withdrawal', 'Amount': -2000.0, 'Date': '2024-09-01 12:11:18', 'Balance': 500.0}
+{'Type': 'Deposit', 'Amount': 10000.0, 'Date': '2024-09-01 12:11:55', 'Balance': 10500.0}
+{'Type': 'Transfer from f6e3b520', 'Amount': 1000.0, 'Date': '2024-09-01 12:14:42', 'Balance': 11500.0}
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 5
+Enter your account number: d1c9ef4e 
+Enter your PIN: 4321
+
+Account Details:
+Account Number: d1c9ef4e
+Name: Reddy
+Balance: 4500.0
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 6
+Enter your account number: d1c9ef4e
+Enter your PIN: 1234     
+
+Transaction History:
+Invalid PIN.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): d1c9ef4e 
+Invalid choice. Please try again.
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 6
+Enter your account number: d1c9ef4e
+Enter your PIN: 4321
+
+Transaction History:
+{'Type': 'Account Created', 'Amount': 2000.0, 'Date': '2024-09-01 12:09:09', 'Balance': 2000.0}
+{'Type': 'Transfer from 3ee3a7aa', 'Amount': 2500.0, 'Date': '2024-09-01 12:10:05', 'Balance': 4500.0}
+
+Main Menu
+1. Create Account
+2. Deposit Money
+3. Withdraw Money
+4. Transfer Money
+5. View Account Details
+6. View Transaction History
+7. Exit
+Enter your choice (1-7): 7
+Thank you for using Simple Bank Application. Goodbye!
